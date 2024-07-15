@@ -1,12 +1,12 @@
 import requests
 from requests.auth import HTTPBasicAuth
-def gate_data_confluance(url="http://localhost:8090/rest/api/space/TEST/content/page?expand=body.storage"):
+def gate_data_confluance(url="http local host address"):
     # Define the URL
-    # url = "http://localhost:8090/rest/api/space/TEST/content/page?expand=body.storage"
+    # url = "  your local path"
 
     # Define your username and password
     username = 'Admin'
-    password = 'Pavilion@123'
+    password = 'your password '
 
     # Make the GET request with authentication
     response = requests.get(url, auth=HTTPBasicAuth(username, password))
