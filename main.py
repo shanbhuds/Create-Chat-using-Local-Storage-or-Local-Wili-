@@ -12,7 +12,7 @@ if local_path:
     #load pdf data
     # loader = UnstructuredPDFLoader(file_path=local_path)
     #load urldata
-    # loader = WebBaseLoader("https://www.miniorange.com/about_us")
+    # loader = WebBaseLoader(" your url")
     data=''''''
     print('welcome_1')
     html_data=connect_confluance.gate_data_confluance()
